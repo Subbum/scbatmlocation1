@@ -13,6 +13,13 @@ a-scene{
     z-index: 100;
 }
 
+.map{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+
 .camerastat{
     height: 100%;
     width: 100%;
