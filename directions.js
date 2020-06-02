@@ -32,7 +32,7 @@ function loadDirectionFromAPIs(position) {
     const endpoint = `https://open.mapquestapi.com/directions/v2/route?key=${params.clientId}
     &latLng=${position.latitude},${position.longitude}
     &from=${position.latitude},${position.longitude}
-    &to=19.111597971385113,72.89660249116625
+    &to=19.099749,72.9142353
     `
     return fetch(endpoint)
         .then((res) => {
