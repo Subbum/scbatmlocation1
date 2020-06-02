@@ -15,7 +15,7 @@ a-scene{
 
 .map{
     height: 200px;
-    width: 100%;
+    width: 100vh;
     position: absolute;
     bottom: 10px;
 }
