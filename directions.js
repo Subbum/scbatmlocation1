@@ -31,8 +31,8 @@ function loadDirectionFromAPIs(position) {
     // Foursquare API
     const endpoint = `https://open.mapquestapi.com/directions/v2/route?key=${params.clientId}
     &latLng=${position.latitude},${position.longitude}
-    &from=${position.latitude},${position.longitude}
-    &to=19.099749,75.9142353
+    &from=19.114467, 72.898088
+    &to=19.0974567,72.9014679
     `
     return fetch(endpoint)
         .then((res) => {
